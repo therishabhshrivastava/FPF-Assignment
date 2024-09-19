@@ -1,0 +1,44 @@
+.navbar {
+    background-color: #333;
+    padding: 1em;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+  }
+  
+  .nav-links li {
+    position: relative;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .mega-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding: 1em;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    color: black;
+  }
+  
+  .nav-links li:hover .mega-menu {
+    display: block;
+  }
+  
+  .submenu {
+    margin-bottom: 1em;
+  }
+  
+  .submenu ul {
+    list-style: none;
+  }
+
+  .submenu li {
+    color: black;
+  }
+  
