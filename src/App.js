@@ -1,14 +1,8 @@
-import './App.css';
-import Navbar from './components/Navbar';
-import SignupForm from './components/SignupForm';
+import React from "react";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <h2>Signup Form</h2>
-      <SignupForm />
-    </div>
+    <div>Hello</div>
   );
 }
 
